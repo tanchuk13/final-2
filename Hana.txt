@@ -1,0 +1,7 @@
+http://pcvector.net/scripts/tabs/87-coda-slider-slayder-vkladok.html  - тут есть слайдер
+http://dbmast.ru/kak-sdelat-prostoe-adaptivnoe-menyu-s-pomoshhyu-css3 - адаптивное меню
+http://dbmast.ru/modalnyj-blok-video-na-css3 - как делать видео
+http://dbmast.ru/otzyvchivyj-akkordeon-s-pomoshhyu-jquery
+http://dbmast.ru/files/easy-accordion-jquery/
+http://dbmast.ru/adaptivnye-vkladki-taby-na-css3
+http://dbmast.ru/files/demo/adaptivnye-taby-css.html
