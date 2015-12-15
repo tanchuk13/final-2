@@ -330,6 +330,7 @@ padding: 0 10px;
 border-left:none;
 padding-left: 0px;
 }
+
 /*mobile*/
 @media (max-width: 640px) {
 .mobile_hidden {
@@ -396,6 +397,7 @@ width: 215px;
 height: 45px;
 
 }
+
 .contacts * {
 display: inline-block;
 float:left:}

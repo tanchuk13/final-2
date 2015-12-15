@@ -45,7 +45,11 @@
 	bottom: -30px;
 	width: 100%;
 }
+.partners_slider .bxslider_item img {
+max-width: 350px;
+max-height: 260px;
 
+}
 /* LOADER */
 
 .bx-wrapper .bx-loading {
