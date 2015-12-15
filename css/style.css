@@ -11,7 +11,8 @@ a{
 
 .wraper {
 max-width: 960px;
-margin: 0 auto;}
+margin: 0 auto;
+}
 
 .content_wraper {
 margin: 0 30px;
@@ -32,7 +33,7 @@ text-align: center;
 .button p:after {
 content: '@';
 }
-header {
+#header {
 background-color: white;
 min-height: 60px;
 }
@@ -46,7 +47,38 @@ min-height: 60px;
 	background: url("../img/layout/logo.png") no-repeat 0 0;
 }
 
+ .search {
+    width: 300px; /* Ширина поля с кнопкой */
+    border: 1px solid #000; /* Параметры рамки */
+    min-height: 20px; /* Минимальная высота */
+   }
+   input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 274px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(img/) no-repeat 50% 50%; /* Параметры фона */
+   }
+   
+   
+#menu_search {
+float: right;
+}
+.menu_right
+{background-color: green;
+width: 250px;
+float:right;}
 
+.menu_right div{
+display:inline;
+float:left;
+}
 @-webkit-viewport { width: device-width; }
 @-moz-viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
@@ -56,7 +88,7 @@ min-height: 60px;
 
 
 #partners {
-background: url('../img/layout/Partners_Mobile_background.jpg') no-repeat;
+background: url('../img/layout/Partners_Mobile_background.jpg') -200px no-repeat;
 padding: 45px;
 }
 
@@ -79,7 +111,9 @@ margin-top: 5px;
  width: 194px;
  margin-top:15px;
  padding:  25px 35px 35px 25px;
-}
+
+ }
+
 
 .conse {
 padding: 45px 3% 30px 7px;
@@ -139,7 +173,14 @@ padding: 44px 70px 36px 40px;
 
 }
 
-
+.ns {
+width: 30%;
+display: inline-block;
+padding-left:3%
+}
+.ns:first-child {
+padding-left:0;
+}
 #partnering {
 background-color: #f1f1f1;
 }
@@ -203,7 +244,7 @@ padding-left: 0px;
 /*mobile*/
 @media (max-width: 640px) {
 .mobile_hidden {
-visibility: hidden;
+display: none;
 }
 #partners {
 background: url('../img/layout/Partners_Mobile_background.jpg') no-repeat;}
@@ -219,6 +260,10 @@ padding: 55px 0;
 @media (min-width: 641px){
 .footer_navigation, #footer a {
 display: inline-block;}
+
+#slider_top {
+display: none;
+}
 
 #partners {
 background: url('../img/layout/Partners_Desktop_background.png') no-repeat;}

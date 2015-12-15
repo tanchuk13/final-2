@@ -3,6 +3,22 @@
 <head>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
+		
+	<script type="text/javascript" src="js/modernizr-custom.js"></script>
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+		  mode: 'horizontal',
+		  captions: true
+		});
+		
+		
+	});
+</script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	
 </head>
 <body>
@@ -11,19 +27,23 @@
 	<div id="header" class ="content_wraper">
 			<a href="#" class="logo" title="SAP"></a>
 			<p class="mobile_hidden">The Best-Run Business Run SAP </p>
-			<span>+1 866 727-1482</span>
-			<span class ="mobile_hidden">United States</span>
-			<a href ="" class ="mobile_hidden">Login</a>
-			<a href ="" class ="mobile_hidden">Contact Us</a>
-	
-
-		<div id="sb-search" class="sb-search">
-			<form>
-				<input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
-				<input class="sb-search-submit" type="submit" value="SEARCH">
-				
+			
+			<div id="menu_search">
+			 <form>
+					<div class="search">
+					 <input type="search" name="q">
+					 <input type="submit" value="">
+				   </div>
 			</form>
-		</div>
+			</div>
+			
+			<div class ="menu_right">
+				<div class ="mobile_hidden">United States</div>
+				<div><a href ="" class ="mobile_hidden">Login</a></div>
+				<div>+1 866 727-1482</div>
+				<div> <a href ="" class ="mobile_hidden">Contact Us</a></div>
+			</div>
+		
 	</div>
 </div>		
 	<div id="partners">
@@ -49,40 +69,55 @@
 	</div>
 	</div>
 	
-	<div id="slider_top" class="content_wraper">
-		<ul class="bxslider">
-				<li>
-					<div class="bxslider_item">
-					<img class ="" src="img/content/img_1.png">
+	<div class ="wraper ">
+		<div id="slider_top" class="content_wraper">
+			<div class="bxslider">
+						<div class="bxslider_item">
+						<img class ="" src="img/content/img_1.png">
+							<h2>Polkut gradev nasertyw</h2>
+							<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+							<a href=""> Ipsum dolor </a>
+						</div>
 					
+						<div class="bxslider_item">
+							<img src="img/content/img_2.png">
+							<h2>Samuy fsdfg roslvd fdsgs</h2>
+							<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+							<a href=""> Ipsum dolor </a>
+						</div>
+				
+						<div class="bxslider_item">
+							<img  src="img/content/img_3.png">
+							<h2>Norit norsic lares</h2>
+							<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+							<a href=""> Ipsum dolor </a>
+						</div>
+			</div>
+		</div>
+	
+		<div class="mobile_hidden not_slid_top">
+					<div class="ns">
+						<img class ="" src="img/content/img_1.png">
 						<h2>Polkut gradev nasertyw</h2>
 						<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 						<a href=""> Ipsum dolor </a>
 					</div>
 				
-				</li>
-				<li>
-					<div class="bxslider_item">
-					<img src="img/content/img_2.png">
-				
-					<h2>Samuy fsdfg roslvd fdsgs</h2>
-					<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-					<a href=""> Ipsum dolor </a>
+					<div class="ns">
+						<img src="img/content/img_2.png">
+						<h2>Samuy fsdfg roslvd fdsgs</h2>
+						<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+						<a href=""> Ipsum dolor </a>
 					</div>
-				</li>
-				<li>
-					<div class="bxslider_item">
-					<img  src="img/content/img_3.png">
-					
-					<h2>Norit norsic lares</h2>
-					<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-					<a href=""> Ipsum dolor </a>
+			
+					<div class="ns">
+						<img  src="img/content/img_3.png">
+						<h2>Norit norsic lares</h2>
+						<p>Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+						<a href=""> Ipsum dolor </a>
 					</div>
-				</li>
-				
-		</ul>	
+		</div>
 	</div>
-	
 	<div id="program">
 		<div class="wraper">
 		<div class="program_item">
@@ -113,6 +148,11 @@
 		</div>
 		</div>
 	</div>	
+	
+
+	
+
+	
 	
 	<div class="contacts content_wraper">	
 		<div class ="question">Already an SAP Partner?</div>
